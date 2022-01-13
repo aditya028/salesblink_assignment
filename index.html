@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dialer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>DIALER</h1>
+    </div>
+    <div class="dialer_box">
+      <div class="display_number">
+        <h1 id="dis_num"></h1>
+      </div>
+      <div class="numbers_group">
+        <button class="num_btn" onclick="clickFunction(event)" id="1">1</button>
+        <button class="num_btn" onclick="clickFunction(event)" id="2">2</button>
+        <button class="num_btn" onclick="clickFunction(event)" id="3">3</button>
+        <button class="num_btn" onclick="clickFunction(event)" id="4">4</button>
+        <button class="num_btn" onclick="clickFunction(event)" id="5">5</button>
+        <button class="num_btn" onclick="clickFunction(event)" id="6">6</button>
+        <button class="num_btn" onclick="clickFunction(event)" id="7">7</button>
+        <button class="num_btn" onclick="clickFunction(event)" id="8">8</button>
+        <button class="num_btn" onclick="clickFunction(event)" id="9">9</button>
+        <button class="num_btn" onclick="clickFunction(event)" id="*">*</button>
+        <button class="num_btn" onclick="clickFunction(event)" id="0">0</button>
+        <button class="num_btn" onclick="clickFunction(event)" id="#">#</button>
+        <button class="num_btn" id="back">Back</button>
+        <button class="num_btn" onclick="callFunction()" id="call">Call</button>
+        <button class="num_btn" onclick="clearFunction()" id="clear">
+          clear
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

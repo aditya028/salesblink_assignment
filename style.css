@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(206, 203, 226);
+}
+
+.header {
+  color: #0a0a0a;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.dialer_box {
+  width: 40vw;
+  height: 80vh;
+  border: 2px solid black;
+  margin: auto;
+  background-color: rgb(168, 160, 240);
+}
+.display_number {
+  text-align: center;
+  height: 70px;
+  margin: 10px;
+  font-size: 25px;
+  color: rgb(155, 6, 6);
+}
+.numbers_group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0px 50px;
+}
+.num_btn {
+  height: 70px;
+  margin: 10px;
+  text-align: center;
+  flex: 1 0 25%;
+  font-size: 50px;
+  background-color: rgb(130, 104, 226);
+  border: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.num_btn:hover {
+  cursor: pointer;
+  background-color: rgb(158, 140, 224);
+}
